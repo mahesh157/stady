@@ -1,0 +1,292 @@
+.jaimbar{
+    background-color: #0d6efd;
+    height: 50px;
+}
+.sercha{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.sempla{
+    margin-top: -15px !important;
+    
+}
+.serch{
+    color: white;
+    margin-top: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+li{
+    margin-left: 50px;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    margin-left: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ 
+  }
+  
+  .dropdown-content-1 a {
+    color: black;
+
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-1 a:hover {background-color: #ddd;}
+  
+  .dropdown-1:hover .dropdown-content-1 {display: block;}
+
+
+.compse-5{
+
+    background-image: url(../imges/oranger.png);
+    height: 200px;
+    width: 100%;background-size: cover;
+    background-position: center;
+}
+.compse{
+
+    background-image: url(../imges/honesday.png);
+    height: 200px;
+    width: 100%;background-size: cover;
+    background-position: center;
+}
+.compse-6{
+
+    background-image: url(../imges/mandaqy.png);
+    height: 200px;
+    width: 100%;background-size: cover;
+    background-position: center;
+}
+.complay{
+
+    background-image: url(../imges/nderation.png);
+    height: 200px;
+    width: 100%;background-size: cover;
+    background-position: center;
+}
+
+
+.sallu{
+    display: none;
+
+}
+
+.compse:hover .sallu {
+    display: block !important;
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+background-color: rgba(66, 129, 211, 0.5);
+height: 195px;
+color: white;
+}
+.pill{
+    display: none;
+}
+
+.compse-5:hover .pill{
+    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(66, 129, 211, 0.5);
+    height: 195px;
+    color: white;
+}
+.sill{
+    display: none;
+}
+.complay:hover .sill{
+    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(66, 129, 211, 0.5);
+    height: 195px;
+    color: white;
+} 
+.pooo{
+    display: none;
+}
+.compse-6:hover .pooo{
+    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(66, 129, 211, 0.5);
+    height: 195px;
+    color: white;
+}
+.font-1{
+    width: 33px;
+    height: 33px;
+    padding-top: 2px;
+    background-color:#052c65 ;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.font-1:hover{
+    background-color:white;
+    color: #0d6efd !important;
+}
+.font-2{
+    width: 33px;
+    height: 33px;
+background-color:#052c65 ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-2:hover{
+    background-color:white;
+color:  #0d6efd !important;
+}
+.font-3{
+    width: 33px;
+    height: 33px;
+background-color:red ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-3:hover{
+    background-color:#052c65;
+color:  white !important;
+}
+.font-4{
+    width: 33px;
+    height: 33px;
+background-color:#052c65;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-4:hover{
+    background-color:white;
+color:  #052c65 !important;
+}
+
+@media screen and (min-width:255px) and (max-width:320px) {
+    .sercha{
+  display: none;
+    }
+    .serch{
+display: none;
+    }
+    .king-pisar {
+        display: none;
+    }
+    .delet-hover{
+justify-content: center;
+    }
+    .king{
+        margin: auto;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width:320px) and (max-width:375px) {
+    .sercha{
+  display: none;
+    }
+    .serch{
+display: none;
+    }
+    .king-pisar {
+        display: none;
+    }
+    .delet-hover{
+        justify-content: center;
+            }
+            .king{
+text-align: center;
+                width: 100%;
+                font-weight: bold;
+            }
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+    .sercha{
+  display: none;
+    }
+    .serch{
+display: none;
+    }
+    .king-pisar {
+        display: none;
+    }
+    .delet-hover{
+        justify-content: center;
+            }
+            .king{
+                text-align: center;
+                                width: 100%;
+                                font-weight: bold;
+                            }
+}
+@media screen and (min-width:425px) and (max-width:768px) {
+    .sercha{
+  display: none;
+    }
+    .serch{
+display: none;
+    }
+    .king-pisar {
+        display: none;
+    }
+    .delet-hover{
+        justify-content: flex-end;
+        margin-top: -50px;
+            }
+            .king{
+                text-align: center;
+                                width: 100%;
+                                font-weight: bold;
+                            }
+}
+@media screen and (min-width:900px) and (max-width:1024px) {
+li{
+    margin-left: 20px;
+}
+.chenal{
+height: 355px;
+}
+}

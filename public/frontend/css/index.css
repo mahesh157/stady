@@ -1,0 +1,771 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.divakar{
+display: flex;
+border: 2px solid #ccc;
+margin-top: 6px;
+
+}
+.margin{
+  font-size: 23px;
+}
+.input-nav{
+  outline: none;
+  border: none;
+border-right:1px solid #ccc;
+width: 100%;
+}
+.bg-blak{
+  background-color: #279aff;
+}
+.poliam {
+    background-color:#2e3e77;
+    width: 100%;
+   
+}
+li{
+  margin-right: -5px;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  .dropdown-1 {
+    position: relative;
+    display: inline-block;
+  }
+  .font-1{
+    width: 33px;
+    height: 33px;
+    padding-top: 2px;
+    background-color:#052c65 ;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.font-1:hover{
+    background-color:white;
+    color: #0d6efd !important;
+}
+.font-2{
+    width: 33px;
+    height: 33px;
+background-color:#052c65 ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-2:hover{
+    background-color:white;
+color:  #0d6efd !important;
+}
+.font-3{
+    width: 33px;
+    height: 33px;
+background-color:red ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-3:hover{
+    background-color:#052c65;
+color:  white !important;
+}
+.font-4{
+    width: 33px;
+    height: 33px;
+background-color:#052c65;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-4:hover{
+    background-color:white;
+color:  #052c65 !important;
+}
+
+   
+  .dropdown-content-1 {
+    margin-left: 162px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-1 a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-1 a:hover {background-color: #ddd;}
+  
+  .dropdown-1:hover .dropdown-content-1 {display: block;}
+  
+    
+  .dropdown-3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-3 {
+    margin-left: 162px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-3 a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-3 a:hover {background-color: #ddd;}
+  
+  .dropdown-3:hover .dropdown-content-3 {display: block;}
+  
+  bt
+.nav-item {
+    margin-right: 50px;
+    text-transform: capitalize;
+
+}
+.deval{
+  font-size: 20px;
+color: white;
+text-align: center;
+padding-top:300px !important ;
+text-transform: lowercase !important;
+
+}
+.wed{
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  padding-top: 40px;
+  transition: all 1.2s;
+}
+.dEMAL{
+  color: white;
+  padding-top: 100px;
+}
+.jaimal:hover .wed{
+  display: block;
+  padding-top: 0px;
+}
+.jaimal{
+  overflow: hidden;
+  z-index: -50;
+}
+.dimakaw{
+  padding-top: 100px;
+}
+.jaipur{
+  background-image: url(../imges/lecher.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  transition:all 0.5s;
+}
+.jaimal{
+  overflow: hidden;
+  z-index: -50;
+}
+.dimakaw{
+  padding-top: 100px;
+}
+.jaipur{
+  background-image: url(../imges/lecher.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  transition:all 0.5s;
+}
+.jaimal:hover .jaipur{
+transform: scale(1.1);
+}
+.jaimal-7{
+  overflow: hidden;
+  z-index: -50;
+}
+.dimakaw{
+  padding-top: 100px;
+}
+.jaipur-7{
+  background-image: url(../imges/design.jpg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  transition:all 0.5s;
+}
+.jaimal-7:hover .jaipur-7{
+transform: scale(1.1);
+}
+.jaimal:hover .jaipur{
+transform: scale(1.1);
+}
+.jaimal-6{
+  overflow: hidden;
+  z-index: -50;
+}
+.dimakaw{
+  padding-top: 100px;
+}
+.jaipur-6{
+  background-image: url(../imges/technology.jpg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  transition:all 0.5s;
+}
+.jaimal-6:hover .jaipur-6{
+transform: scale(1.1);
+}
+.jaimal:hover .wed{
+  display: block;
+  padding-top: 0px;
+}
+.jaimal-1{
+  overflow: hidden;
+  z-index: -50;
+}
+.jaipur-1{
+  background-image: url(../imges/sempal.jpg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  transition:all 0.5s;
+}
+.jaimal-1:hover .jaipur-1{
+transform: scale(1.1);
+}
+.jaimal-2{
+  overflow: hidden;
+  z-index: -50;
+}
+.jaipur-2{
+  background-image: url(../imges/sempal.jpg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  transition:all 0.5s;
+}
+.jaimal-4:hover .jaipur-2{
+transform: scale(1.1);
+}
+.jaimal-4{
+  overflow: hidden;
+  z-index: -50;
+}
+.jaipur-4{
+  background-image: url(../imges/photography.jpg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  transition:all 0.5s;
+}
+.jaimal-4:hover .jaipur-4{
+transform: scale(1.1);
+}
+.mokal{
+    margin-right:  50px !important;
+}
+.mokal:hover{
+color: #279aff;
+}
+.meri:hover{
+  color: orange;
+  text-shadow: 20px !important;
+}
+#monu{
+  position: absolute;
+  width: 3px !important;
+  height: 20px !important;
+background-color: orange;
+margin-top: -70px;
+margin-left: 30px;
+border-radius: 21px;
+z-index: 1;
+}
+#sonu{
+  position: absolute;
+  width: 3px !important;
+  height: 20px !important;
+background-color: orange;
+margin-top: -70px;
+margin-left: 75px;
+border-radius: 21px;
+z-index: 1;
+}
+.glasl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+height: 50px;
+width: 5%;
+    color: white !important;
+
+    font-weight: bold !important;
+}
+
+.nav-but {
+    background-color: #279aff;
+    color: blue;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.dipla{
+    margin-left: 10px;
+}
+.abp-colam{
+  width:35%;
+  background-color: white;
+  opacity: 1;
+  position: absolute;
+top:  300px;
+left: 130px;
+border-radius: 20px;
+}
+
+.back{
+  background-color: #2e3e77;
+  opacity: none;
+  padding: 20px;
+
+}
+.diginin{
+  border: 1px solid #279aff;
+  border-radius: 20px;
+}
+.mahul{
+padding-left: 20px;
+  margin-top: 7px;
+  margin-bottom: 2px;
+  padding-right: 10px;
+}
+.digini{
+  border: 1px solid orange;
+  border-radius: 20px;
+}
+.digin{
+  border: 1px solid blue;
+  border-radius: 20px;
+  color: blue;
+}
+.view{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.jogi-1{
+  width: 100%;
+  background-size: cover;
+}
+#monu-2{
+    font-size: 10px; 
+  }
+.tiranga{
+  width: 20%;
+  height: 80px;
+}
+.padding{
+  padding: 20px;
+}
+.bg-white:hover{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.pilo:hover{
+  color: blue;
+}
+.vidio-tag{
+  background-image: url(../imges/vivie.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+.vidio-tag-2{
+  background-image: url(../imges/ppppppppp.jpg#);
+  width: 100%;
+  height: 180px;
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+.vidio-tag-3{
+  background-image: url(../imges/CHILD.jpg);
+  width: 100%;
+  height: 180px;
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+
+.center-2{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+}
+.center-3{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+}
+.center{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.peple:hover{
+  background-color: wheat;
+}
+#Marketing{
+  position: absolute;
+  margin-top: -75px;
+  color: white;
+  margin-left: 13px;
+}
+#Marketing-semple{
+  position: absolute;
+  margin-top: -45px;
+  color: white;
+  margin-left: 13px;
+}
+.view{
+  font-size: 15px !important;
+}
+.business:hover{
+  color: orange !important;
+  transition: 2s;
+}
+.wonderful:hover{
+  color: blue;
+  transition: 2s;
+}
+.width{
+  width: 10px;
+  height: 100px;
+  border-radius: 10%;
+  background-size: cover;
+}
+/* .opacity{
+  height: 90vh;
+} */
+.mahul{
+  margin-top: -80px !important;
+  width: 40%;
+}
+.drop-5{
+  margin-left:  11px;
+}
+.drop-6{
+  margin-left:  11px;
+}
+.camp{
+  background-color:white;
+}
+.manu{
+  color: black;
+}
+.collage{
+  padding-top: 80px;
+}
+.maging-5{
+  margin-left: 15px !important; 
+}
+@media screen and (min-width:240px) and (max-width:319px) {
+  .view{
+    font-size: 10px !important;
+  }
+  .margin{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+       .barish{
+        display: none;
+       }
+       .navbar-toggler{
+        margin-left: -10px;
+       }
+       .king{
+        margin: auto;
+        font-weight: bold;
+       }
+       .dipla{
+        margin: auto;
+        font-weight: bold;
+       }
+       .glasl{
+        display: none;
+       }
+       .tiranga{
+        width: 100%;
+        margin: auto;
+       }
+#monu{
+  margin-left:11px;
+}
+#sonu{
+  margin-left: 49px;
+}
+.maging-5{
+  margin-left: -87px !important;
+}
+}
+@media screen and (min-width:319px) and (max-width:320px) {
+  .glasl{
+    display: none !important;
+    }
+    .dipla{
+      margin: auto;
+      font-weight: bold;
+    }
+    .king{
+      margin: auto;
+      font-weight: bold;
+    }
+    .view{
+      font-size: 10px !important;
+      
+    }
+    .margin{
+      font-size: 15px;
+      font-weight: bold;
+    }
+    #sonu{
+      margin-left: 5px;
+      height: 19px !important;
+      width: 3px !important;
+      
+    }
+    #monu{
+      margin-left: 41px;
+      height: 19px !important;
+      width: 3px !important;
+    }
+    .tiranga{
+      width: 50%;
+      margin: auto;
+    }
+    .king-pisar{
+      display: none;
+    }
+    #Marketing-semple{
+      margin-top: -25px;
+    }
+    .camp{
+      background-color:black;
+    }
+
+    .manu{
+      color: white !important;
+
+    }
+    .cemplkl{
+   display: none;
+    }
+}
+@media screen and (min-width:322px) and (max-width:375px) {
+  .glasl{
+    display: none !important;
+  }
+  .dipla{
+    margin: auto;
+    font-weight: bold;
+  }
+  .king{
+    margin: auto;
+    font-weight: bold;
+  }
+  .view{
+    font-size: 15px !important;
+    
+  }
+  .margin{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #sonu{
+    margin-left: 5px;
+    height: 19px !important;
+    width: 6px !important;
+    
+  }
+  #monu{
+    margin-left: 64px;
+    height: 19px !important;
+    width: 6px !important;
+  }
+  .tiranga{
+    width: 50%;
+    margin: auto;
+  }
+  .king-pisar{
+    display: none;
+  }
+  .camp{
+    background-color:black;
+  }
+  .cemplkl{
+    display: none;
+       }
+       .manu{
+        color: white !important;
+      }
+      
+}
+@media screen and (min-width:376px) and (max-width:426px) {
+  .glasl{
+    display: none !important;
+  }
+  .dipla{
+    margin: auto;
+    font-weight: bold;
+  }
+  .king{
+    margin: auto;
+    font-weight: bold;
+  }
+  #sonu{
+    margin-left: 12px;
+    height: 19px !important;
+    width: 6px !important;
+    
+  }
+  #monu{
+    margin-left: 50px;
+    height: 19px !important;
+    width: 6px !important;
+  }
+  .tiranga{
+    width: 33%;
+    margin: auto;
+  }
+  .king-pisar{
+    display: none;
+  }
+  .camp{
+    background-color:black;
+  }
+  .cemplkl{
+    display: none;
+       }
+       .manu{
+        color: white !important;
+        
+      }
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+  .glasl{
+    display: none !important;
+  }
+  .dipla{
+    margin: auto;
+    font-weight: bold;
+  }
+  .king{
+    margin: auto;
+    font-weight: bold;
+  }
+  #sonu{
+    margin-left: 10px;
+    height: 19px !important;
+    width: 6px !important;
+    
+  }
+  #monu{
+    margin-left: 107px;
+    height: 19px !important;
+    width: 6px !important;
+  }
+  .tiranga{
+    width: 20%;
+    margin: auto;
+  }
+  .mahul{
+    margin-top: -250px !important;
+    width: 50%;
+  }
+  .camp{
+    background-color:black;
+  }
+  .cemplkl{
+    display: none;
+       }
+       .manu{
+        color: white !important;
+        
+      }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+.mokal{
+  margin-left: -9px !important;
+}
+.mmmm{
+  margin-left: 7px;
+}
+.mahul{
+  margin-top: -180px !important;
+  width: 40%;
+}
+.divana{
+padding: 10px !important;
+}
+/* .opacity{
+  height: 150vh;
+} */
+.mokal{
+  margin-left: -9px;
+}
+.drop-5{
+  margin-left: 6px !important;
+}
+.drop-6{
+  margin-left: 6px !important;
+}
+}

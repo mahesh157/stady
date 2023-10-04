@@ -1,0 +1,335 @@
+.jaimbar{
+    background-color: #0d6efd;
+    height: 50px;
+}
+.sercha{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.sempla{
+    margin-top: -15px !important;
+    
+}
+.serch{
+    color: white;
+    margin-top: 15px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+li{
+    margin-left: 50px;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    margin-left: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ 
+  }
+  
+  .dropdown-content-1 a {
+    color: black;
+
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-1 a:hover {background-color: #ddd;}
+  
+  .dropdown-1:hover .dropdown-content-1 {display: block;}
+
+.Government:hover{
+color: orange !important;
+transition: 2s;
+cursor: pointer;
+}
+.Tips:hover{
+color: #0d6efd;
+transition: 5s;
+}
+.academics:hover{
+color: #0d6efd;
+}
+.slul{
+    transform: translate(120px,4px);
+}
+
+.font-1{
+    width: 33px;
+    height: 33px;
+    padding-top: 2px;
+    background-color:#052c65 ;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.font-1:hover{
+    background-color:white;
+    color: #0d6efd !important;
+}
+.font-2{
+    width: 33px;
+    height: 33px;
+background-color:#052c65 ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-2:hover{
+    background-color:white;
+color:  #0d6efd !important;
+}
+.font-3{
+    width: 33px;
+    height: 33px;
+background-color:red ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-3:hover{
+    background-color:#052c65;
+color:  white !important;
+}
+.font-4{
+    width: 33px;
+    height: 33px;
+background-color:#052c65;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white  !important;
+}
+.font-4:hover{
+    background-color:white;
+color:  #052c65 !important;
+}
+
+.tiranga{
+    width:100px;
+    height: 70px;
+    margin-top: 13px ;
+}
+.maging-5{
+margin-top: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#monu{
+    width: 3px;
+    height: 20px;
+     background-color: orange;
+     margin-top: -70px;
+     margin-left: 15px;
+}
+#sonu{
+    width: 3px;
+    height: 20px;
+     background-color: orange;
+     margin-top: -27px;
+     margin-left: 70px;
+}
+.pilo{
+    font-size: 15px !important;
+}
+.pilo:hover{
+    color: blue;
+    transition: 0.9s;
+}
+.pege{
+margin-left: 10px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .pegep{
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+
+@media screen and (min-width:255px) and (max-width:320px) {
+    .king{
+font-weight: bold;
+margin: auto !important;
+    }
+    .serch{
+        display: none;
+
+    }
+    .sercha{
+        display: none;
+
+    }
+    li{
+        margin-left: 0px;
+    }
+    .shoping{
+        display: none;
+    }
+.delet-hover{
+    justify-content: center;
+}
+.pege{
+    display: none;
+}
+.tiranga{
+    margin: auto;
+}
+ .pegep{
+display: none;
+}
+#sonu{
+          margin-left: 42px;
+}
+}
+@media screen and (min-width:321px) and (max-width:375px) {
+    .king{
+        font-weight: bold;
+text-align: center;
+        width: 100%;
+            }
+            .serch{
+                display: none;
+        
+            }
+            .sercha{
+                display: none;
+        
+            }
+            li{
+                margin-left: 0px;
+            }
+            .shoping{
+                display: none;
+            }
+            .delet-hover{
+                justify-content: center;
+            }
+            .pege{
+                display: none;
+            }
+            .tiranga{
+                margin: auto;
+                width: 144px;
+            }
+            .pegep{
+                display: none;
+                } 
+          
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+    .king{
+        font-weight: bold;
+text-align: center;
+        width: 100%;
+            }
+            .serch{
+                display: none;
+        
+            }
+            .sercha{
+                display: none;
+        
+            }
+            li{
+                margin-left: 0px;
+            }
+            .shoping{
+                display: none;
+            }
+            .delet-hover{
+                justify-content: center;
+            }
+            .pege{
+                display: none;
+            }
+            .tiranga{
+                margin: auto;
+            }
+            .pegep{
+                display: none;
+                }
+                #sonu{
+                    margin-left: 62px;
+                       }
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+    .king{
+        font-weight: bold;
+text-align: center;
+        width: 100%;
+            }
+            .serch{
+                display: none;
+        
+            }
+            .sercha{
+                display: none;
+        
+            }
+            li{
+                margin-left: 0px;
+            } 
+            .shoping{
+                display: none;
+            }
+            .delet-hover{
+                justify-content: end;
+                margin-top: -60px;
+            }
+
+            .pegep{
+                width: 200px;
+                margin-left: 50px;
+                border-radius: 10px;
+              }
+              .pege{
+                width: 200px;
+
+                border-radius: 10px;
+              }
+}
+@media screen and (min-width:900px) and (max-width:1024px) {
+    li{
+        margin-left: 15px;
+    }
+    #sonu{
+   margin-left: 52px;
+      }
+}
